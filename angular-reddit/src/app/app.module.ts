@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ArticleComponent } from './article/article.component';
+import { SuriComponent } from './suri/suri.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ArticleComponent
+    ArticleComponent,
+    SuriComponent
   ],
   imports: [
     BrowserModule,
